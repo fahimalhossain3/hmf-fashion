@@ -1,0 +1,11 @@
+.container{
+    margin-bottom: 100px;;
+}
+.form-inline .form-control {
+    
+    display: block;
+    width: 100%;
+    
+    border-radius: 17px;
+    background-color: rgb(240, 227, 227);
+}
