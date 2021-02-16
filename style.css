@@ -9,3 +9,81 @@
     border-radius: 17px;
     background-color: rgb(240, 227, 227);
 }
+.whaf-width{ width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+
+}
+.whaf-width img{ width: 100%;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-menu{
+    background-color: #ff422f2e;
+    height: 550px;
+}
+.header-taitel{
+    font-size: 71px;
+}
+.shop-card{
+    border: none;
+}
+.servis{
+    height: 176px;
+}
+.findd-prfect{
+    background-color: #fff ;
+    border-radius: 10px;
+   
+}
+.crad-img{
+    background-color: gray;
+}
+@media (max-width: 576px) { 
+    .nav-logo{
+        width: 85%;
+    }
+    .top-menu{
+        height: 698px;
+    }
+    .servis{
+        width: 484px;
+    }
+    img{
+        margin: auto;
+    }
+ }
+ 
+ @media (min-width: 768px) { 
+    .top-menu {
+        height: 426px;
+    }
+    .servis {
+        width: 588px;
+        margin: auto;
+          
+    }
+ }
+ @media (min-width: 992px) { 
+    .servis {
+        width: 454px;
+    }
+  }
+  @media (min-width: 1200px) { 
+    .top-menu {
+        height: 500px;
+    }
+  }
+  @media (min-width: 1400px) { 
+    .top-menu {
+        height: 582px;
+    }
+}
+.from{
+    text-align: center;
+}
